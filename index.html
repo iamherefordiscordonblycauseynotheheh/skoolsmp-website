@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SchoolSMP</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0b0f14;
+            color: white;
+        }
+
+        header {
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #111820;
+            border-bottom: 1px solid #26313d;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: #ccc;
+            text-decoration: none;
+            margin-left: 25px;
+        }
+
+        nav a:hover {
+            color: white;
+        }
+
+        .hero {
+            min-height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .hero h1 {
+            font-size: 64px;
+            margin: 0 0 15px;
+        }
+
+        .hero p {
+            font-size: 20px;
+            color: #aeb8c2;
+            max-width: 600px;
+            line-height: 1.6;
+        }
+
+        .buttons {
+            margin-top: 30px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 15px 30px;
+            margin: 8px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            background: #2f81f7;
+            color: white;
+            transition: 0.2s;
+        }
+
+        .button:hover {
+            transform: translateY(-2px);
+            opacity: 0.9;
+        }
+
+        .secondary {
+            background: #202a35;
+        }
+
+        section {
+            padding: 70px 20px;
+            text-align: center;
+            background: #10161d;
+        }
+
+        section h2 {
+            font-size: 36px;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            max-width: 900px;
+            margin: 40px auto 0;
+        }
+
+        .card {
+            width: 260px;
+            padding: 25px;
+            background: #171f28;
+            border: 1px solid #293542;
+            border-radius: 12px;
+        }
+
+        .card h3 {
+            margin-top: 0;
+        }
+
+        .card p {
+            color: #aeb8c2;
+            line-height: 1.5;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #7f8b96;
+            background: #0b0f14;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">SchoolSMP</div>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#server">Server</a>
+    </nav>
+</header>
+
+<main>
+
+    <div class="hero">
+        <h1>SchoolSMP</h1>
+
+        <p>
+            Welcome to SchoolSMP!
+            Join the community, explore the server,
+            and start playing.
+        </p>
+
+        <div class="buttons">
+            <a class="button" href="#server">PLAY NOW</a>
+            <a class="button secondary" href="#about">LEARN MORE</a>
+        </div>
+    </div>
+
+    <section id="about">
+        <h2>About SchoolSMP</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>🌎 Survival</h3>
+                <p>
+                    Build, explore, gather resources,
+                    and create your own base.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>👥 Community</h3>
+                <p>
+                    Play with friends and become part
+                    of the SchoolSMP community.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>⚔️ Adventures</h3>
+                <p>
+                    Explore the world and see what
+                    adventures await.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="server">
+        <h2>Play SchoolSMP</h2>
+
+        <p>
+            Ready to play?
+        </p>
+
+        <div class="buttons">
+            <!-- We'll replace this with your actual Eaglercraft link later -->
+            <a class="button" href="#">
+                PLAY NOW
+            </a>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    © 2026 SchoolSMP
+</footer>
+
+</body>
+</html>
